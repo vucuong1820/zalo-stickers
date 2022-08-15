@@ -118,12 +118,12 @@ const path = require("path");
   let final = result.map(
     ({ name, thumbnail, icon, stickerId, id, stickers }) => ({
       name,
-      thumbnail: `https://cdn.jsdelivr.net/gh/naptestdev/zalo-stickers/data/images/thumbnails/${id}.png`,
-      icon: `https://cdn.jsdelivr.net/gh/naptestdev/zalo-stickers/data/images/icons/${id}.png`,
+      thumbnail: `https://cdn.jsdelivr.net/gh/vucuong1820/zalo-stickers/data/images/thumbnails/${id}.png`,
+      icon: `https://cdn.jsdelivr.net/gh/vucuong1820/zalo-stickers/data/images/icons/${id}.png`,
       stickerId,
       id,
       stickers: stickers.map(({ id: stickerId }) => {
-        const spriteURL = `https://cdn.jsdelivr.net/gh/naptestdev/zalo-stickers/data/images/${id}/${stickerId}.png`;
+        const spriteURL = `https://cdn.jsdelivr.net/gh/vucuong1820/zalo-stickers/data/images/${id}/${stickerId}.png`;
         return {
           id: stickerId,
           spriteURL,
